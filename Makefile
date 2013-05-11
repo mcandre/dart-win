@@ -1,4 +1,6 @@
+AIP=dart-0.07.aip
+
 all: installer
 
-installer: dart-0.07.aip
-	AdvancedInstaller /build dart-0.07.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
